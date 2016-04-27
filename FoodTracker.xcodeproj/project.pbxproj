@@ -13,6 +13,7 @@
 		DC694BA21CCCB4B800EEFF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC694BA11CCCB4B800EEFF33 /* Assets.xcassets */; };
 		DC694BA51CCCB4B800EEFF33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC694BA31CCCB4B800EEFF33 /* LaunchScreen.storyboard */; };
 		DC694BB01CCCB4B800EEFF33 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC694BAF1CCCB4B800EEFF33 /* FoodTrackerTests.swift */; };
+		F5D6C4171CD0F8DF007D7A6F /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D6C4161CD0F8DF007D7A6F /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DC694BAB1CCCB4B800EEFF33 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC694BAF1CCCB4B800EEFF33 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		DC694BB11CCCB4B800EEFF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D6C4161CD0F8DF007D7A6F /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				DC694B9A1CCCB4B800EEFF33 /* AppDelegate.swift */,
 				DC694B9C1CCCB4B800EEFF33 /* ViewController.swift */,
+				F5D6C4161CD0F8DF007D7A6F /* RatingControl.swift */,
 				DC694B9E1CCCB4B800EEFF33 /* Main.storyboard */,
 				DC694BA11CCCB4B800EEFF33 /* Assets.xcassets */,
 				DC694BA31CCCB4B800EEFF33 /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC694B9D1CCCB4B800EEFF33 /* ViewController.swift in Sources */,
+				F5D6C4171CD0F8DF007D7A6F /* RatingControl.swift in Sources */,
 				DC694B9B1CCCB4B800EEFF33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +394,7 @@
 				DC694BB61CCCB4B800EEFF33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC694BB71CCCB4B800EEFF33 /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +403,7 @@
 				DC694BB91CCCB4B800EEFF33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
